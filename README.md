@@ -1,2 +1,3 @@
-# gardenstorm.github.io
-My personal website
+# This site is under construction!
+Progress: Domain and host site acquired.
+To Do: Wireframes, sketches, coding, content, basically everything.
