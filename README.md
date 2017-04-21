@@ -3,4 +3,4 @@ Progress: Domain and host site acquired.
 
 To Do: Wireframes, sketches, coding, content, basically everything.
 
-<a href="test.png"/ >
+<img src="test.png"/ >
