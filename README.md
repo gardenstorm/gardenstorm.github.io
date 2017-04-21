@@ -3,4 +3,4 @@ Progress: Domain and host site acquired.
 
 To Do: Wireframes, sketches, coding, content, basically everything.
 
-<img src="test.png"/ >
+<img src="gardenstorm.github.io/final2.png" />
