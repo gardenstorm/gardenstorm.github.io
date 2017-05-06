@@ -1,7 +1,13 @@
 # This site is under construction!
-Progress: Domain and host site acquired.
 
-To Do: Wireframes, sketches, coding, content, basically everything.
+**To Do: **
+~~- Domain
+- Hosting
+- Wireframes 
+- Sketches~~
+- Coding 
+- Content 
+- Basically everything
 
-<img src="gardenstorm.github.io/final2.png" />
-Image made with brushes from <a href="http://www.obsidiandawn.com/">Obsidian Dawn</a>
+![Preview image](gardenstorm.github.io/final2.png)
+Image made with brushes from [Obsidian Dawn](http://www.obsidiandawn.com/)
