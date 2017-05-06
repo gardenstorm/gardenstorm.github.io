@@ -1,6 +1,7 @@
-# This site is under construction!
+# Erika Nieves Art
+## This site is under construction!
 
-<b>To Do: **</b>
+<b>To Do: </b>
 - &#10003; Domain
 - &#10003; Hosting
 - &#10003; Wireframes 
