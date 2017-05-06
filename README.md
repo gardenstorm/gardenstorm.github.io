@@ -10,4 +10,4 @@
 - Basically everything
 
 ![Preview image](final2.png)
-Image made with brushes from [Obsidian Dawn](http://www.obsidiandawn.com/)
+###### Image made with brushes from [Obsidian Dawn](http://www.obsidiandawn.com/)
