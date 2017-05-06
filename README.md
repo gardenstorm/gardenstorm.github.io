@@ -9,5 +9,5 @@
 - Content 
 - Basically everything
 
-![Preview image](gardenstorm.github.io/final2.png)
+![Preview image](final2.png)
 Image made with brushes from [Obsidian Dawn](http://www.obsidiandawn.com/)
