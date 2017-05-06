@@ -1,7 +1,8 @@
 # This site is under construction!
 
 **To Do: **
-~~- Domain
+~~-
+Domain
 - Hosting
 - Wireframes 
 - Sketches~~
