@@ -1,12 +1,11 @@
 # This site is under construction!
 
 **To Do: **
-~~-
-Domain
-- Hosting
-- Wireframes 
-- Sketches~~
-- Coding 
+- :white_check_mark: Domain
+- :white_check_mark: Hosting
+- :white_check_mark: Wireframes 
+- :white_check_mark: Sketches
+- :on: Coding 
 - Content 
 - Basically everything
 
