@@ -1,0 +1,10 @@
+{
+  "vars": {
+    "@grid-gutter-width": "0px"
+  },
+  "css": [
+    "grid.less"
+  ],
+  "js": [],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=385817498b999482d9482e1c324d8613"
+}

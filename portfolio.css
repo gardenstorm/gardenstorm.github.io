@@ -1,0 +1,46 @@
+/*This is the stylesheet for my portfolio site.*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+body#home {
+  background-color: #369AD9;
+}
+
+h1 {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+/*Home page*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  padding: 10em;
+}
+
+li.home {
+  background-color: #369AD9;
+  padding: 10em;
+}
+
+li.about {
+  background-color: #5BA9D9;
+}
+
+li.works {
+  background-color: #A0DBF2;
+}
+
+li.contact {
+  background-color: #148BA6;
+}
+
+li.blog {
+  background-color: #36BFBF;
+}
