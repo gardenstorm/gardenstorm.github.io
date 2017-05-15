@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
+  <title>Test</title>
   <!--CSS-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/portfolio.css">
@@ -19,7 +19,7 @@
     <![endif]-->
 </head>
 <!--Start of page-->
-<body id="home">
+<body>
   <!--Nav bar sits outside of container-fluid so it can stretch across whole screen-->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -91,13 +91,14 @@
             </svg>
           </div>
         </a>
+        <a class="navbar-brand" href="#">Erika Nieves Art</a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="works.html">Works</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="http://www.gardenmew.tumblr.com">Blog</a></li>
         </ul>
@@ -106,16 +107,76 @@
   </nav>
   <!--Container for rest of page-->
   <div class="container-fluid">
-  <div class="row">
-      <img class="img-responsive col-xs-4 col-sm-4" src="assets/placeholder-544x811.jpg" />
-      <ul class="col-xs-12 col-sm-8">
-        <li class="home"><a href="index.html">Home</a></li>
-        <li class="about"><a href="about.html">About</a></li>
-        <li class="works"><a href="works.html">Works</a></li>
-        <li class="contact"><a href="contact.html">Contact</a></li>
-        <li class="blog"><a href="http://www.gardenmew.tumblr.com">Blog</a></li>
-      </ul>
-  </div>
+    <!--Page is divided into sections-->
+    <!--Welcome or Home section-->
+    <section id="home" class="row">
+      <!--Make the magatama glowy for an intro to it-->
+      <img src="assets/magatama-3d_569x865.png" class="img-responsive col-xs-12 col-md-4 col-md-offset-1 col-lg-3" />
+      <!--Personal or introductory statement-->
+      <article class="col-xs-12 col-md-6 col-lg-4 text-center">
+        <hgroup>
+          <h1>Hello!</h1>
+          <h3>My name is</h3>
+          <h1>Erika Nieves</h1>
+          <h3>and I'm a</h3>
+          <h1>Web Designer and Photoshop Pro.</h1>
+        </hgroup>
+        <p>Scroll below to see my work! :)</p>
+      </article>
+    </section>
+    <!--Works section, where the meat of the page is-->
+    <section id="works" class="row">
+      <!--Signify with a header-->
+      <h1 class="col-sm-2 col-lg-3 text-center">Works</h1>
+      <!--Thumbnails seen through a magatama-->
+      <article class="col-sm-12 col-lg-8">
+        <div class="row">
+          <figure class="col-md-4">
+            <img src="assets/magatama-maze.png" class="img-responsive" alt="A preview of my maze game">
+            <figcaption class="text-center">Multimedia Senior Project</figcaption>
+          </figure>
+          <figure class="col-md-4">
+            <img src="assets/magatama-haiku.png" class="img-responsive" alt="Animated Haikus preview">
+            <figcaption class="text-center">Animated Haikus</figcaption>
+          </figure>
+          <figure class="col-md-4">
+            <img src="assets/magatama-mmShow2016.png" class="img-responsive" alt="Guardians of Anime Club preview">
+            <figcaption class="text-center">Guardians of Anime Club</figcaption>
+          </figure>
+        </div>
+        <div class="row">
+          <figure class="col-md-4">
+            <img src="assets/magatama-escape.png" class="img-responsive" alt="Escape from Underground preview">
+            <figcaption class="text-center">Escape from Underground</figcaption>
+          </figure>
+          <figure class="col-md-4">
+            <img src="assets/magatama-lh.png" class="img-responsive" alt="Log Horizon preview">
+            <figcaption class="text-center">Log Horizon</figcaption>
+          </figure>
+          <figure class="col-md-4">
+            <img src="assets/magatama-PoD.png" class="img-responsive" alt="San Francisco Ferry Building preview">
+            <figcaption class="text-center">San Francisco Ferry Building</figcaption>
+          </figure>
+        </div>
+      </article>
+    </section>
+    <!--About me-->
+    <section id="about" class="row">
+      <!--Make the magatama glowy for an intro to it-->
+      <img src="assets/magatama-3d_569x865.png" class="img-responsive col-xs-12 col-md-4 col-md-offset-1 col-lg-3" />
+      <!--Personal or introductory statement-->
+      <article class="col-xs-12 col-md-6 col-lg-4 text-center">
+        <hgroup>
+          <h1>Hello!</h1>
+          <h3>My name is</h3>
+          <h1>Erika Nieves</h1>
+          <h3>and I'm a</h3>
+          <h1>Web Designer and Photoshop Pro.</h1>
+        </hgroup>
+        <p>Scroll below to see my work! :)</p>
+      </article>
+    </section>
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
