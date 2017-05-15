@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 /*This is the stylesheet for my portfolio site.*/
 
 .logo {
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 body {
@@ -16,9 +15,7 @@ h1, h2, h3, h4 {
 }
 
 section {
-  background-image: url(assets/magatama-3d_569x865.png);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  
 }
 
 #home {
@@ -61,49 +58,3 @@ li.contact {
 li.blog {
   background-color: #36BFBF;
 }
-=======
-/*This is the stylesheet for my portfolio site.*/
-
-.logo {
-  margin-top: -10px;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  padding-top: 4em;
-}
-
-h1 {
-  font-family: 'Shadows Into Light Two', cursive;
-}
-
-/*Home page*/
-
-body#home {
-  background-color: #369AD9;
-}
-
-body#about {
-  background-color: #5BA9D9;
-}
-
-li.home {
-  background-color: #369AD9;
-}
-
-li.about {
-  background-color: #5BA9D9;
-}
-
-li.works {
-  background-color: #A0DBF2;
-}
-
-li.contact {
-  background-color: #148BA6;
-}
-
-li.blog {
-  background-color: #36BFBF;
-}
->>>>>>> refs/remotes/origin/test1
