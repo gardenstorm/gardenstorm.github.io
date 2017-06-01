@@ -1,0 +1,68 @@
+/*This is the stylesheet for my portfolio site.*/
+
+.logo {
+  margin-top: -10px;
+}
+
+body {
+  background-color: #222222;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 4em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+section {
+
+}
+
+figure.front {
+  padding: 10px;
+}
+
+figcaption{
+  margin-top: 10px;
+}
+
+#home {
+  background-color: #134C4C;
+}
+
+#works {
+  background-color: #238C8C;
+}
+
+#works .thumbnail{
+  background-color: #222222;
+  border: 1px solid transparent;
+}
+
+#about {
+  background-color: #2DB2B2;
+}
+
+body#contact {
+    background-color: #148BA6;
+}
+
+li.home {
+  background-color: #369AD9;
+}
+
+li.about {
+  background-color: #5BA9D9;
+}
+
+li.works {
+  background-color: #A0DBF2;
+}
+
+li.contact {
+  background-color: #148BA6;
+}
+
+li.blog {
+  background-color: #36BFBF;
+}
