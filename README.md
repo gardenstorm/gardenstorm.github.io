@@ -1,4 +1,4 @@
 # gardenstorm.github.io
-My personal website
+This is Erika's personal website.
 
-I, uh, yeah....
+I will also house some of my projects here. :)
