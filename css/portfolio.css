@@ -16,6 +16,8 @@ body {
 
   font-family: 'Raleway', sans-serif;
   padding-top: 4em;
+
+  position: relative;
 }
 
 h1, h2, h3, h4 {
