@@ -1,0 +1,30 @@
+/* CSS for the Splash Page */
+
+body {
+  background-color: #238c8c;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #fff;
+}
+
+div {
+  width: 255px;
+  height: 210px;
+}
+
+#cyndy {
+  width: 255px;
+  height: 210px;
+  background: url(../assets/cyndy-run.svg);
+  background-size: 765px 210px;
+  margin: auto;
+  animation: run .5s steps(3) infinite;
+}
+
+@keyframes run {
+  100% {background-position: -765px;}
+
+}
