@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mulitmedia Senior Project</title>
+  <title>Erika Nieves Art</title>
   <!--CSS-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/portfolio.css">
@@ -19,7 +19,7 @@
     <![endif]-->
 </head>
 <!--Start of page-->
-<body>
+<body data-spy="scroll">
   <!--Nav bar sits outside of container-fluid so it can stretch across whole screen-->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -96,9 +96,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="home.html">Home</a></li>
-          <li><a href="home.html#works">Works</a></li>
-          <li><a href="home.html#about">About</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="http://www.erikanievesart.tumblr.com">Blog</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -107,18 +107,68 @@
   <!--Container for rest of page-->
   <div class="container-fluid">
     <!--Page is divided into sections-->
-    <!--Header text-->
-    <section class="row">
-      <h1 class="page-header">Multimedia Senior Project</h1>
-      <h3>Memories of you</h3>
+    <!--Welcome or Home section-->
+    <section id="home" class="row">
+      <!--Make the magatama glowy for an intro to it-->
+      <img src="assets/magatama-3d_569x865.png" class="img-responsive col-xs-12 col-md-4 col-md-offset-1 col-lg-3" />
+      <!--Personal or introductory statement-->
+      <article class="col-xs-12 col-md-6 col-lg-4 text-center">
+        <hgroup>
+          <h1 class="page-header">Hello!</h1>
+          <h3>My name is</h3>
+          <h1>Erika Nieves</h1>
+          <h3>and I'm a</h3>
+          <h1>Web Designer.</h1>
+        </hgroup>
+        <p>Scroll below to see my work! :)</p>
+        <h1 class="arrow">&darr;</h1>
+      </article>
     </section>
-    <!--Img or media goes here-->
-    <section class="row">
-      <img class="img-responsive" src="https://placeimg.com/640/480/tech" />
+    <!--Works section, where the meat of the page is-->
+    <section id="works" class="row">
+      <!--Signify with a header-->
+      <h1 class="col-sm-2 col-lg-3 text-center page-header">Works</h1>
+      <!--Thumbnails seen through a magatama-->
+      <article class="col-sm-12 col-lg-8">
+        <div class="row">
+          <a href="maze.html"><figure class="col-md-4 front">
+            <img src="assets/magatama-maze.png" class="img-responsive" alt="A preview of my maze game">
+            <figcaption class="text-center">Multimedia Senior Project</figcaption>
+          </figure></a>
+          <a href="haiku.html"><figure class="col-md-4 front">
+            <img src="assets/magatama-haiku.png" class="img-responsive" alt="Animated Haikus preview">
+            <figcaption class="text-center">Animated Haikus</figcaption>
+          </figure></a>
+          <a href="mmShow2016.html"><figure class="col-md-4 front">
+            <img src="assets/magatama-mmShow2016.png" class="img-responsive" alt="Guardians of Anime Club preview">
+            <figcaption class="text-center">Guardians of Anime Club</figcaption>
+          </figure></a>
+        </div>
+        <div class="row">
+          <a href="escape.html"><figure class="col-md-4 front">
+            <img src="assets/magatama-escape.png" class="img-responsive" alt="Escape from Underground preview">
+            <figcaption class="text-center">Escape from Underground</figcaption>
+          </figure></a>
+          <a href="lh.html"><figure class="col-md-4 front">
+            <img src="assets/magatama-lh.png" class="img-responsive" alt="Log Horizon preview">
+            <figcaption class="text-center">Log Horizon</figcaption>
+          </figure></a>
+          <a href="PoD.html"><figure class="col-md-4 front">
+            <img src="assets/magatama-PoD.png" class="img-responsive" alt="San Francisco Ferry Building preview">
+            <figcaption class="text-center">San Francisco Ferry Building</figcaption>
+          </figure></a>
+        </div>
+      </article>
     </section>
-    <!--Description of project-->
-    <section class="row">
-      <p>For my final project at CSUEB, I created an interactive experience using Gamemaker.</p>
+    <!--About me-->
+    <section id="about" class="row">
+      <!--Make the magatama glowy for an intro to it-->
+      <img src="assets/placeholder.jpg" class="img-responsive col-xs-12 col-md-4 col-md-offset-1 col-lg-3" />
+      <!--Personal or introductory statement-->
+      <article class="col-xs-12 col-md-6 col-lg-4 text-center">
+        <h1 class="page-header">About Me</h1>
+        <p>I'm originally from Florida and moved to the SF Bay Area to pursue a career in Silicon Valley.</p>
+      </article>
     </section>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
