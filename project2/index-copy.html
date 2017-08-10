@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <!--Meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/proj2.css">
+  <!--Web font-->
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <!--jQuery, libraries linkage-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><!--jQuery-->
+  <script src="js/jquery.waypoints.min.js"></script><!--Waypoints for scroll events/triggers-->
+  <!--jQuery to scroll to bottom of page automatically. Copied from: http://www.sourcetricks.com/2010/07/javascript-scroll-to-bottom-of-page.html-->
+  <script type="text/javascript">
+    $(function(){
+    $('html, body').animate({scrollTop: $(document).height()-$(window).height()}, 300);
+  });
+  </script>
+  <!--For the pixel counter. Copy pasta from class example.-->
+  <style media="screen">
+    #counter {
+      width: 200px;
+      height: 50px;
+      border: 1px solid #F8F8FF;
+      font-family: monospace;
+      text-align: center;
+      line-height: 50px;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+  <title>Escape from Underground</title>
+</head>
+<body>
+  <!--Container for everything-->
+  <article>
+    <!--Literally the example from class.
+    Test to see if jquery is working by messing with js events
+    <h1 id="counter">Counter!</h1>
+    <script type="text/javascript">
+      $("#counter").css({
+        "background-color":"red",
+        "color":"white"
+      });
+      ///Pixel counter!
+      $(window).scroll(function(){
+        var fromthetop = $(window).scrollTop();
+        $("#counter").text("px:" + fromthetop);
+      });
+    </script>-->
+
+    <!--Begin drilling up-->
+    <!--The upper reaches of the page.-->
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../bio.html">Bio</a></li>
+        <li><a href="../lab1/index.html">Lab 1</a></li>
+        <li><a href="../lab2/index.html">Lab 2</a></li>
+        <li><a href="../lab3/index.html">Lab 3</a></li>
+        <li><a href="../project1/index.html">Project 1</a></li>
+        <li><a href="../p1slides.html">Project 1 Presentation</a></li>
+        <li><a href="index.html">Project 2</a></li>
+        <li><a href="../p2slides.html">Project 2 Presentation</a></li>
+     </ul>
+    </nav>
+    <!--tree-->
+
+
+    <section id="underground">
+      <!--Sedimentary layers-->
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand">
+        <figure id="dugtrio">
+          <img src="assets/dugtrio.png" alt="dugtrio" />
+        </figure>
+        <script type="text/javascript">
+        ///Dugtrio travels to the right
+        $(window).scroll(function() {
+          { $("#dugtrio").css({
+            "position": "absolute",
+            "left": (($(window).scrollTop()*4)-230)  //modifies scroll/mvment speed
+          })
+          }
+          });
+        </script>
+      </div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <!--Approx. 1,000px, make t-rex sounds-->
+      <div class="darkBand">
+        <div id="dino">
+          <figure><img src="assets/dino.png" alt="" /></figure>
+          <script type="text/javascript">
+          var waypoints = $('#dino').waypoint({
+            handler: function(direction) {
+              if (direction === 'up'){
+              var snd = new Audio("assets/dino.wav");
+              snd.play();}
+            }
+          });
+          </script>
+        </div>
+      </div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <!--Approx. 1,900px, make shiny sounds-->
+      <div class="darkBand">
+        <div id="emerald">
+          <figure>
+            <img src="assets/minecraft_emerald.png" alt="minecraft emerald block" />
+          </figure>
+          <script type="text/javascript">
+          var waypoints = $('#emerald').waypoint({
+            handler: function(direction) {
+              if (direction === 'up'){
+              var snd = new Audio("assets/shiny.wav");
+              snd.play();}
+            }
+          });
+          </script>
+        </div>
+      </div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+      <div class="lightBand"></div>
+      <div class="darkBand"></div>
+
+    </section>
+
+    <!--The colony-->
+    <section id="colony">
+      <div id="sayonara">
+      <script type="text/javascript">
+      var waypoints = $('#sayonara').waypoint({
+        handler: function(direction) {
+          if (direction === 'up'){
+          $("#sayonara").text(
+            "Farewell, cruel world!"
+          );}
+        }
+      });
+      </script>
+      </div>
+    </section>
+
+    <section id="title">
+      <!--Title Screen!-->
+      <header>
+        <h1>Escape</h1>
+        <h1>from</h1>
+        <h1>Underground</h1>
+      </header>
+    </section>
+
+    <section id="intro">
+      <!--Opening animation. These 3 drop in from above. Shovel sounds accompany them.-->
+      <div id="meh">
+        <header id="dig">
+          <h2 id="indent1">Dig</h2>
+          <h2 id="indent2">Dig</h2>
+          <h2 id="indent3">Dig.</h2>
+        </header>
+        <p>That's all we humans do down here. Aside form random treasures, the only things that keep me going are stories about the surface. <span id="intro-pulse">But not anymore.</span></p>
+        <p>I'm <span id="intro-skew">escaping</span> this place. With this <span style="color:yellow">DRILL</span> that'll PIERCE THE HEAVENS.</p>
+      </div>
+    </section>
+    <!--The drill, MC-->
+    <figure id="drill"><img src="" alt="drill" /></figure>
+  </article>
+
+</body>
+</html>

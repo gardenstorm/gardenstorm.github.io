@@ -1,0 +1,313 @@
+/*CSS for Project 2: Escape from Underground*/
+
+body {
+  background-color: #000;
+}
+
+nav {
+  padding: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+nav ul {
+  color: #fff;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin: auto;
+  /*width: 50%;*/
+}
+
+nav li {
+  display: inline;
+  padding: 5px;
+  margin: 10px;
+}
+
+nav li:hover {
+  border-bottom: 2px solid yellow;
+}
+
+nav a:link {
+  color: #595959;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #595959;
+  text-decoration: none;
+}
+
+/*Containing element*/
+article {
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 4000px;*/
+  width: 80%;
+  /*background-color: #00BFFF; Change later*/
+  z-index: 1;
+  font-family: 'Abel', sans-serif;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 5em;
+  line-height: 1.5em;
+}
+
+#credits h1 {
+   -webkit-column-span: all;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+#credits h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+/*id for h2 group*/
+#dig {
+  margin-bottom: 2em;
+}
+/*Indents for intro headers + animations*/
+#indent1 {
+  text-indent: 4em;
+  position: relative;
+  -webkit-animation-name: fall1;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.2s;
+  -webkit-animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes fall1 {
+  from {top: -80px;}
+  to {top: 0;}
+}
+
+#indent2 {
+  text-indent: 8em;
+  position: relative;
+  -webkit-animation-name: fall2;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.2s;
+  -webkit-animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes fall2 {
+  from {top: -120px;}
+  to {top: 0;}
+}
+
+#indent3 {
+  text-indent: 12em;
+  position: relative;
+  -webkit-animation-name: fall3;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.2s;
+  -webkit-animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes fall3 {
+  from {top: -150px;}
+  to {top: 0;}
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.8em;
+}
+
+#credits p {
+  font-size: 1.1em;
+}
+
+/*CSS Animations for key intro text*/
+span#intro-pulse {
+  font-weight: bold;
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-delay: 4s;
+}
+
+@-webkit-keyframes pulse {
+  0% {transform: scale(1,1);}
+  50% {transform: scale(1.2, 1.2);}
+  100% {transform: scale(1,1);}
+}
+
+span#intro-skew {
+  -webkit-animation-name: skew;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-delay: 5s;
+}
+
+@-webkit-keyframes skew {
+  0% {transform: skewX(0deg);}
+  25% {transform: skewX(-20deg);}
+  50% {transform: skewX(20deg);}
+  100% {transform: skewX(0deg);}
+}
+
+/*Section for each section. #'s define each one.*/
+section {
+  margin-bottom: 1.5em;
+  /*padding: 1em;*/
+}
+
+#intro {
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+  height: 600px;
+  position: relative;
+  /*z-index: 1;*/
+}
+
+div#meh {
+  background-color: #000;
+  position: relative;
+  z-index: 1;
+}
+
+#title {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+#colony {
+  background-color: #211500;
+  background-image: url("../assets/colony.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+
+div#sayonara {
+  /*height: 35px;
+  width: 140px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 20%;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  position: relative;
+  top: 100px;
+  outline: red solid 1px;*/
+}
+
+#underground {
+
+}
+
+#tree {
+  background-color: #00BFFF;
+  height: 550px;
+}
+
+#credits {
+  /*text-align: center;*/
+  float:right;
+  position: absolute;
+  left: 400px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 3em;
+
+}
+/*divs for the sedimentary layers*/
+div.lightBand {
+  background-color: #6F4E37;
+  width: 100%;
+  height: 100px;
+}
+
+div.darkBand {
+  background-color: #211500;
+  width: 100%;
+  height: 100px;
+}
+/*divs for effects or images related to those effects*/
+#dino {}
+
+#emerald {
+  position: relative;
+  left: 80px;
+  top: 30px;
+}
+
+#dugtrio {
+  /*outline: red solid 1px;
+  background-color: #fff;*/
+  height: 100px;
+  width: 200px;
+  position: relative;
+}
+
+#city {
+  text-align: center;
+}
+
+#city img {
+  height: 80%;
+  width: 80%;
+}
+
+/*divs for roots & grass*/
+#roots {
+  background-color: #211500;
+  height: 70px;
+  bottom: -580px;
+  position: relative;
+}
+
+#grass {
+  background-color: #009900;
+  height: 50px;
+  bottom: -580px;
+  position: relative;
+}
+
+figure {
+
+}
+
+#dino figure {
+  text-align: right;
+}
+
+#dugtrio img {
+  height: 80%;
+}
+
+#tree figure {
+  width: 400px;
+  float: left;
+}
+
+/*THE drill, MC of this whole thing.*/
+figure#drill {
+  /*background-color: yellow;*/
+  position: fixed;
+  top: 62%;
+  left: 45%;
+  height: 100px;
+  width: 200px;
+  z-index: 0;
+}

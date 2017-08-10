@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>waypoint test</title>
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/proj2.css">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><!--jQuery-->
+  <script src="js/jquery.waypoints.min.js"></script><!--Waypoints for scroll events/triggers-->
+</head>
+<body>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div id="emerald" class="lightBand">
+    EMERALD
+    <script type="text/javascript">
+      var waypoints = $('#emerald').waypoint({
+        handler: function(direction) {
+          alert(this.element.id + ' hit')
+        }
+      });
+
+    </script>
+  </div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+  <div class="darkBand"></div>
+  <div class="lightBand"></div>
+</body>
+</html>
