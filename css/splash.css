@@ -5,15 +5,19 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-h1, h2, h3 {
+h1 {
   text-align: center;
   color: #fff;
 }
 
-div {
+.btn {
+  height: 6em;
+}
+
+/*div {
   width: 255px;
   height: 210px;
-}
+}*/
 
 #cyndy {
   width: 255px;
