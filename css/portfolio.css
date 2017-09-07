@@ -15,6 +15,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#134c4c', endColorstr='#2db2b2',GradientType=0 ); /* IE6-9 */
 
   font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
   
   padding-top: 2em;
   position: relative;
@@ -28,6 +29,15 @@ h1, h2, h3, h4 {
 section {
   margin-bottom: 4em;
   padding-top: 2em;
+}
+
+a:link {
+  color: #C1F0C1;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #39C1D4;
 }
 
 figure.front {
@@ -57,6 +67,7 @@ figcaption{
   color: #ffffff;
 }
 
+/* Animation for the scroll arrow */
 @keyframes arrow {
   0%, 100% {-ms-transform: translate(0px, 0px); /* IE 9 */
         -webkit-transform: translate(0px, 0px); /* Safari */
@@ -77,4 +88,26 @@ h1.arrow {
 .sticky1 {
   position: sticky;
   top: -1;
+}
+
+/* Closest thing to a template I have.... */
+
+#project {
+  color: #ffffff;
+}
+
+#project section {
+  margin-bottom: 1em;
+}
+
+#project p {
+  padding: 1em;
+}
+
+#project p, ul {
+  text-align: left;
+}
+
+#project figcaption {
+  text-align: center;
 }
