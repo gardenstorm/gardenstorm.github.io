@@ -37,7 +37,7 @@ a:link {
 }
 
 a:visited {
-  color: #39C1D4;
+  color: #C1F0C1;
 }
 
 figure.front {
@@ -110,4 +110,5 @@ h1.arrow {
 
 #project figcaption {
   text-align: center;
+  margin-bottom: 0px;
 }
