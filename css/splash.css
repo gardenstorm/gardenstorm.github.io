@@ -1,17 +1,31 @@
 /* CSS for the Splash Page */
 
 body {
-  background-color: #238c8c;
+  background-color: /*#238c8c*/ #543535;
   font-family: 'Raleway', sans-serif;
+  color: #fff;
 }
 
 h1 {
+  font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
   color: #fff;
+  background-color: #00abe5;
 }
 
 .btn {
   height: 6em;
+}
+
+.ground {
+  background-color: #543535;
+  height: 10em;
+}
+
+.sky {
+  background-color: #00BFFF;
+  height: 275px;
+  padding-top: 1px;
 }
 
 /*div {
