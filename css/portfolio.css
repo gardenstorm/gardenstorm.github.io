@@ -40,6 +40,10 @@ a:link {
   text-decoration: none;
 }
 
+a:hover{
+  font-weight: bold;
+}
+
 a:visited {
   color: #C1F0C1;
 }
@@ -100,6 +104,11 @@ figcaption{
   top: -1;
 }
 
+.self {
+  max-height: 100vh;
+  max-width: 100vh;
+}
+
 /* Project pages styling */
 
 #project {
@@ -108,6 +117,11 @@ figcaption{
 
 #project section {
   margin-bottom: 1em;
+}
+
+#project h1 {
+  margin-top: 0px;
+
 }
 
 #project p {
@@ -122,6 +136,8 @@ figcaption{
   font-size: 0.85em;
   text-align: center;
   margin-bottom: 0px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* To ensure embedded videos are a reasonable size... */
@@ -129,4 +145,32 @@ figcaption{
   max-height: 100vh;
   max-width: 100vh;
   margin: auto;
+}
+
+/* Navigation for within the Works section. */
+#project-nav {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 1em;
+
+  background-color: #222222;
+}
+
+#project-nav a{
+  color: #9D9D9D;
+}
+
+#project-nav a:hover{
+  color: #ffffff;
+}
+
+.lft-arrow {
+  padding-right: 1em;
+
+  color: #9D9D9D;
+}
+
+.rgt-arrow {
+  padding-left: 1em;
 }
