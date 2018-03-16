@@ -126,6 +126,8 @@ figcaption{
 
 #project p {
   padding: 1em;
+  margin: auto;
+  max-width: 900px;
 }
 
 #project p, ul {
@@ -144,6 +146,12 @@ figcaption{
 #project .video{
   max-height: 100vh;
   max-width: 100vh;
+  margin: auto;
+}
+
+#project .pdf {
+  max-height: 80vh;
+  max-width: 80vw;
   margin: auto;
 }
 
