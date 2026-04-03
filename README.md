@@ -1,4 +1,2 @@
 # gardenstorm.github.io
-This is Erika's portfolio website.
-
-I will also house some of my projects here. :)
+My old art portfolio website. It contains various digital art projects I made while enrolled at Cal State East Bay.
